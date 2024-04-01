@@ -76,7 +76,6 @@ elif app_mode == 'Prediction':
                     ]
 
     single_sample = np.array(feature_list).reshape(1, -1)
-    print(single_sample)
 
     if st.button("Predict"):
         # file_ = open("6m-rain.gif", "rb")
